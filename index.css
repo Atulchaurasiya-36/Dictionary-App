@@ -1,0 +1,56 @@
+
+.app {
+  width: 90%;
+  max-width: 500px; 
+  margin: 100px auto; 
+  padding: 20px;
+  background: #fff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+.app:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+ h1{
+  font-size: 50px;
+  color: rgb(99, 137, 251);
+  text-align: left;
+  font-weight: 700;
+ }
+ .searchBar{
+  display: flex;
+  width: 100%;
+  height: auto;
+ }
+ .searchBar input{
+  height: 40px;
+  width: 300px;
+  outline: none;
+ }
+  input ::placeholder{
+ font-size: larger;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+ }
+ .searchBar button{
+  /* height: 40px; */
+  width: 100px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(99, 137, 251);
+ }
+ p{
+  font-size: larger;
+  font-weight: bold;
+ }
+ .last{
+  background-color: rgb(99, 137, 251);
+  font-size: larger;
+  font-weight: bold;
+ }
